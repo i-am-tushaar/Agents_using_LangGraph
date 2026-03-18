@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+build/
+dist/
+pip-wheel-metadata/
+
+# Virtual env
+env/
+venv/
+.venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.nbconvert.ipynb
+
+# Local env / secrets
+.env
+.env.*
+local_settings.py
+*.key
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and DB
+*.log
+*.sqlite3
+*.db
